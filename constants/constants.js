@@ -58,10 +58,7 @@ export const CONTACTS = {
   PHONE: '+91 7439825966',
 };
 export const SOCIAL_LINKS = {
-  GITHUB: 'https://github.com/osamajavaid',
-  LINKEDIN: 'https://www.linkedin.com/in/iosamajavaid/',
-  TWITTER: 'https://twitter.com/iosamajavaid',
-  FACEBOOK: 'https://www.facebook.com/iosamajavaid',
-  INSTAGRAM: 'https://www.facebook.com/iosamajavaid',
-
+  GITHUB: 'https://github.com/SuryasnigdhaGhosh',
+  LINKEDIN: 'https://www.linkedin.com/in/suryasnigdha-ghosh-393bbb291/1',
+  INSTAGRAM: 'https://www.instagram.com/__suryaa_._/',
 };

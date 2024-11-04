@@ -55,7 +55,7 @@ const portfolio = [
             {
                 tech: "SCSS"
             },
-        
+
 
         ]
     },
@@ -135,7 +135,25 @@ const portfolio = [
             },
         ]
     },
-   
+
+    {
+        id: 8,
+        projectName: "SpaceFighter",
+        url: "/",
+        image: "projects/pygame.png",
+        organization: "Personal",
+
+        projectDetail: "Developed a basic spacefighter game using Python's Pygame module, featuring background music and custom images. This project was a hands-on way to learn and practice Pygame fundamentals.",
+        technologiesUsed: [
+            {
+                tech: "Python"
+            },
+            {
+                tech: "pygame"
+            },
+
+        ]
+    },
 
     {
         id: 7,
@@ -179,25 +197,8 @@ const portfolio = [
 
         ]
     },
-    
-    {
-        id: 8,
-        projectName: "SpaceFighter",
-        url: "/",
-        image: "projects/pygame.png",
-        organization: "Personal",
 
-        projectDetail: "Developed a basic spacefighter game using Python's Pygame module, featuring background music and custom images. This project was a hands-on way to learn and practice Pygame fundamentals.",
-        technologiesUsed: [
-            {
-                tech: "Python"
-            },
-            {
-                tech: "pygame"
-            },
-        
-        ]
-    },
+
 ]
 export default function handler(req, res) {
     res.status(200).json(portfolio)

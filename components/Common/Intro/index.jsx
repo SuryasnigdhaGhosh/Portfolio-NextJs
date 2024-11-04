@@ -1,14 +1,12 @@
 import Link from 'next/link';
-import { FaDownload, FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaDownload, FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import Contact from './Contact';
 import Download from './Download';
 import Languages from './Languages';
 import Location from './Location';
 import Tools from './Tools';
 import Skills from './Skills';
-import Image from 'next/image';
 import { NAME, DESIGNATION, SOCIAL_LINKS } from '../../../constants/constants';
-import Osama from '../../../public/images/bussiness-man.png';
 import AnimationLottie from '../../../utils/animation-lottie';
 import coder from "../../../public/lottie/code.json"
 
