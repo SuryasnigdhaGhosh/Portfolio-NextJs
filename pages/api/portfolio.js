@@ -3,7 +3,8 @@ const portfolio = [
         id: 1,
         projectName: "Admin Dashboard",
         url: "https://khambee.com/",
-        image: "projects/adminDash.png",
+        image: "projects/admin.png",
+        gif:"projects/admin.gif",
         organization: "Lean Platform Technologies",
         projectDetail: "Led a team of three (backend and QA) to develop an admin dashboard for a SaaS platform, providing robust features for lead management, flexible pricing controls, user profile management, commission settings, coupon creation, user analytics, lead management and comprehensive sorting and filtering. The dashboard also streamlined payout processing and integrated seamlessly with the main platform and sales page. Later, we expanded it to support multiple platforms, allowing admins to switch easily between them. This upgrade improved lead management efficiency by 30% and empowered the platform with real-time flexibility to switch between lifetime and subscription pricing models.",
         technologiesUsed: [
@@ -33,6 +34,7 @@ const portfolio = [
         projectName: "Dynamic Website Builder with Customizable Themes",
         url: "https://artvista.khambee.com/",
         image: "projects/dynamicWeb.png",
+        gif:"projects/websiteBuilder.gif",
         organization: "Lean Platform Technologies",
 
         projectDetail: "Developed a feature from proof of concept to implementation , enabling users to create and manage dynamic, multi-page websites directly from their dashboards. This feature provides users with extensive control, including multiple theme options, content and layout customization, and flexible component positioning. Each page comes with default sections, along with options to add fully customizable sections as needed. Users can also design custom pages using a library of pre-built components, with options to assign dynamic names and routing for seamless navigation. Additionally, the websites support lead form integration, helping users capture and manage leads effectively through their custom sites.The website side includes dynamic lazy loading of components activated in the user dashboard, ensuring efficient performance. It also supports dynamic routing for smooth navigation and offers seamless, responsive themes for an optimized user experience across devices.",
@@ -64,6 +66,7 @@ const portfolio = [
         projectName: "Comprehensive Multi-Course Management",
         url: "https://khambee.com/",
         image: "projects/course.png",
+        gif:"projects/multi-course.gif",
         organization: "Lean Platform Technologies",
 
         projectDetail: "Developed a feature that enables users to create and manage multiple courses directly from their dashboards, with extensive configuration options to tailor each course. Users can control all aspects of course management, from setting and adjusting pricing to managing multiple batches within a single course, tracking course status,creating course coupons, and customizing course details. Additionally, the feature supports automated email communication, allowing users to send course updates and certificates of completion to participants. Each course can be showcased seamlessly on the user’s own website, creating a cohesive experience for both instructors and learners.",
@@ -115,6 +118,37 @@ const portfolio = [
             },
         ]
     },
+
+    {
+        id: 4,
+        projectName: "Social(WIP)",
+        url: "https://github.com/SuryasnigdhaGhosh/SOCIAL-React",
+        image: "projects/social.png",
+        organization: "Personal Project",
+
+        projectDetail: "Developing a social media platform as a first full-stack project, using Node.js, Express.js, MySQL, and Postman for the backend, with React.js and SCSS for the frontend. Current features include login and registration, customizable profiles, photo posting, user connections, post likes, and more.",
+        technologiesUsed: [
+            {
+                tech: "ReactJS"
+            },
+            {
+                tech: "NodeJS"
+            },
+            {
+                tech: "Express.js"
+            },
+            {
+                tech: "SCSS"
+            },
+            {
+                tech: "MySQL"
+            },
+            {
+                tech: "Javascipt"
+            },
+        ]
+    },
+
     {
         id: 5,
         projectName: "Video Calling POC",
@@ -139,7 +173,7 @@ const portfolio = [
     {
         id: 8,
         projectName: "SpaceFighter",
-        url: "/",
+        url: "https://github.com/SuryasnigdhaGhosh/SPACEFIGTER-pygame",
         image: "projects/pygame.png",
         organization: "Personal",
 
@@ -162,10 +196,10 @@ const portfolio = [
         image: "projects/currencyConverter.png",
         organization: "Personal",
 
-        projectDetail: "Developed a desktop application using Express.js and Tailwind CSS for real-time currency conversion, leveraging APIs to provide free, up-to-date exchange rates. The application supports currencies from all countries and offers seamless, accurate conversions.",
+        projectDetail: "Developed a desktop application using Electron.js and Tailwind CSS for real-time currency conversion, leveraging APIs to provide free, up-to-date exchange rates. The application supports currencies from all countries and offers seamless, accurate conversions.",
         technologiesUsed: [
             {
-                tech: "ExpressJS"
+                tech: "Electron.js"
             },
             {
                 tech: "Tailwind CSS"
@@ -179,7 +213,7 @@ const portfolio = [
     {
         id: 6,
         projectName: "STOCKSchart",
-        url: "/",
+        url: "https://github.com/SuryasnigdhaGhosh/STOCKSchart",
         image: "projects/stocks.png",
         organization: "Personal",
 

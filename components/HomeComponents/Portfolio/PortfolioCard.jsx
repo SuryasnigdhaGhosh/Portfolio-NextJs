@@ -1,31 +1,38 @@
+import { useState } from "react";
 import Badge from "../../Common/Badge"
 
 import { CiLink } from "react-icons/ci";
 
+
 const PortfolioCard = ({ data }) => {
+
+const [isHovered, setIsHovered] = useState(false);
+
     return (
-        <div className="card_stylings overflow-hidden h-full">
+        <div className="card_stylings overflow-hidden h-full"
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}>
             <img
-                src={data?.image}
+                src={isHovered ? data?.gif ? data?.gif : data?.image : data?.image}
                 alt="portfolio img"
-                className="w-full object-cover object-top opacity-30 h-32 sm:h-48 md:h-64"
+                className="w-full object-cover object-top hover:opacity-70 opacity-40 h-32 sm:h-48 md:h-72"
             />
             <div id="arrow" className="py-2 px-6 card_stylings h-full hover:-translate-y-10 hover:bg-black transition-all ease-in-out duration-500">
                 <div className="flex justify-between items-center p-0 m-0 ">
                     <div>
                         <h3 className=" flex flex-col  mr-2 italic font-semibold pt-2 text-xl text-Snow leading-tight sm:leading-normal">
-                            {data?.url === "/" ? 
-                               data?.projectName
-                             : (
-                                <a
-                                    href={data?.url}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="flex items-center gap-2 hover:underline"
-                                >
-                                    {data?.projectName}<CiLink/>
-                                </a>
-                            )}
+                            {data?.url === "/" ?
+                                data?.projectName
+                                : (
+                                    <a
+                                        href={data?.url}
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className="flex items-center gap-2 hover:underline"
+                                    >
+                                        {data?.projectName}<CiLink />
+                                    </a>
+                                )}
                         </h3>
                         {/* <div className="text-Snow transition duration-500 hover:text-yellow transform hover:-translate-y-1 hover:scale-110 pt-4 text-base">
                         <a
