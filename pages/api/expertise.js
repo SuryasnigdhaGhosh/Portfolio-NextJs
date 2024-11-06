@@ -2,27 +2,27 @@ const expertise = [
     {
         id: 0,
         title: 'Frontend Software Development',
-        desc: 'I am an experienced Frontend Software Developer with a solid foundation in creating dynamic, user-centric applications using React.js , Next.js , Node.js etc and modern web development technologies. My background includes extensive hands-on experience in crafting interactive, high-performance interfaces and collaborating closely with cross-functional teams, including backend developers, UX/UI designers, and QA specialists, to deliver polished, responsive user experiences. ',
+        desc: 'Experienced Frontend Software Developer skilled in creating dynamic, user-focused applications with React.js, Next.js, Node.js, and other modern web technologies. Proficient in building interactive, high-performance interfaces and collaborating closely with backend developers, UX/UI designers, and QA teams to deliver polished, responsive experiences.',
     },
     {
         id: 1,
         title: 'Agile methodologies',
-        desc: "I have a strong background in Agile methodologies, having worked extensively within sprint-based development environments. My experience covers the complete software development lifecycle, from gathering requirements and planning through to deployment and production. By embracing iterative feedback and continuous improvement, I ensure timely delivery of features that meet client expectations while maintaining high-quality standards across each stage of development.",
+        desc: "I have a strong background in Agile methodologies, working extensively within sprint-based environments and covering the full software development lifecycle—from gathering requirements to deployment. I focus on iterative feedback and continuous improvement to ensure timely, high-quality feature delivery that aligns with client expectations.",
     },
     {
         id: 2,
         title: 'Designing (UI/UX)',
-        desc: 'I have a keen eye for UI/UX design and work closely with designers to create user-friendly, visually appealing interfaces that enhance usability and engagement. My background in sketching and portrait art deepens my understanding of aesthetics and composition, allowing me to contribute effectively to creating intuitive, visually cohesive designs that resonate with users.',
+        desc: 'I have a keen eye for UI/UX design and collaborate closely with designers to craft user-friendly, visually appealing interfaces that boost usability and engagement. My background in sketching and portrait art strengthens my understanding of aesthetics and composition, enabling me to contribute to intuitive, visually cohesive designs that resonate with users.',
     },
     {
         id: 3,
         title: 'Git     ',
-        desc: "With extensive experience in managing git workflows, I ensure effective collaboration across teams, maintaining clear version control and code organization. I am proficient in branching strategies, pull requests, and resolving merge conflicts, enabling smooth integration and deployment processes. My approach to using Git optimizes project management by facilitating seamless collaboration, minimizing errors, and supporting efficient, reliable releases.",
+        desc: "I’m experienced in managing Git workflows to ensure smooth team collaboration with clear version control. Proficient in branching strategies, pull requests, and merge conflict resolution, I support seamless integration, minimizing errors and enabling efficient releases.",
     },
     {
         id: 4,
         title: 'Problem Solving',
-        desc: "I bring strong problem-solving and critical-thinking skills, enabling me to efficiently identify and resolve complex issues while enhancing overall functionality. My leadership approach fosters collaboration within teams, ensuring project goals are met on time and to a high standard through open communication and continuous improvement.",
+        desc: "I bring strong problem-solving skills, enabling efficient issue resolution and functionality improvements. My collaborative leadership ensures timely, high-quality project delivery through open communication and continuous improvement.",
     },
 ]
 

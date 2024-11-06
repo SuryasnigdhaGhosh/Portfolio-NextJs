@@ -14,7 +14,7 @@ const Intro = () => {
   return (
     <>
       {/* fixed at top */}
-      <div className='headerr z-50  bg-MidNightBlack backdrop-blur-sm inset-y-0 h-auto top-0 flex items-center justify-center w-full flex-col py-4 gap-y-4'>
+      <div className='headerr hidden sm:flex z-50  bg-MidNightBlack backdrop-blur-sm inset-y-0 h-auto top-0  items-center justify-center w-full flex-col py-4 gap-y-4'>
         {/* <Image className='w-32 h-auto  ' src={Osama} alt='profile picture' /> */}
         <AnimationLottie animationPath={coder} width="90%"/>
 

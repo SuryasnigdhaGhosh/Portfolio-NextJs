@@ -23,7 +23,7 @@ const Portfolio = () => {
 
     
     return (
-        <div className="flex flex-col  px-2 md:px-8 py-12 gap-4">
+        <div className="flex flex-col  px-4 md:px-8 py-12 gap-4">
             <div className="text-lg font-bold text-Snow">My Works</div>
             <CardLayout>
                 <div className="grid w-full h-full  justify-items-start grid-flow-row md:grid-cols-2 grid-rows-auto gap-x-6 gap-y-6 ">

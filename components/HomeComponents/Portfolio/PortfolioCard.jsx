@@ -15,9 +15,9 @@ const [isHovered, setIsHovered] = useState(false);
             <img
                 src={isHovered ? data?.gif ? data?.gif : data?.image : data?.image}
                 alt="portfolio img"
-                className="w-full object-cover object-top hover:opacity-70 opacity-40 h-32 sm:h-48 md:h-72"
+                className="w-full object-cover object-top  opacity-70 h-60 sm:h-60 md:h-80"
             />
-            <div id="arrow" className="py-2 px-6 card_stylings h-full hover:-translate-y-10 hover:bg-black transition-all ease-in-out duration-500">
+            <div id="arrow" className="py-2 px-6 card_stylings h-full hover:-translate-y-10 bg-DeepNightBlack/10 hover:bg-black transition-all ease-in-out duration-500">
                 <div className="flex justify-between items-center p-0 m-0 ">
                     <div>
                         <h3 className=" flex flex-col  mr-2 italic font-semibold pt-2 text-xl text-Snow leading-tight sm:leading-normal">
