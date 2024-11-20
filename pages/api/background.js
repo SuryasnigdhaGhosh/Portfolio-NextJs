@@ -28,23 +28,23 @@ const background = [
         expCards: [
             {
                 id: 1,
-                title: 'Software Developer Engineer 1',
+                title: 'Frontend Developer',
                 role: 'Lean Platform Technologies',
                 // url: 'https://www.encoderbytes.com/',
-                desc: "As an SDE1, I develop and maintain a SaaS product, implementing new features and ensuring optimal performance.",
+                desc: "I contribute to KhamBee’s lead Frontend development and lead it’s Admin Dashboard development, a SaaS for creators to establish their web presence. Working in Agile methodologies, managing the full software development lifecycle —from requirements to deployment. Focused on iterative feedback, continuous improvement, and delivering high-quality features on schedule.",
 
-                year: 'Oct 2024 - Present',
+                year: 'Jun 2024 - Present',
                 location: 'Goa, India'
             },
-            {
-                id: 2,
-                title: 'Member of Technical Staff',
-                role: 'Lean Platform Technologies',
-                // url: 'https://jmm.ltd/',
-                desc: 'Collaborated with the QA , backend and designing team to identify and resolve frontend related issues, ensuring a bug-free user experience.',
-                year: 'July 2024 - September 2024',
-                location: 'Goa, India'
-            },
+            // {
+            //     id: 2,
+            //     title: 'Member of Technical Staff',
+            //     role: 'Lean Platform Technologies',
+            //     // url: 'https://jmm.ltd/',
+            //     desc: 'Collaborated with the QA , backend and designing team to identify and resolve frontend related issues, ensuring a bug-free user experience.',
+            //     year: 'July 2024 - September 2024',
+            //     location: 'Goa, India'
+            // },
             {
                 id: 3,
                 title: 'Frontend Developer Intern',
